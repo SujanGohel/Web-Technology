@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="welcome.html" novalidate autocomplete="on" method="get" target="_blank">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Full Name :</label>
+            <input type="text" required placeholder="enter your name" />
+            <br/>
+            <br/>
+    
+            <label>Email :</label>
+            <input type="email" />
+            <br/>
+            <br/>
+            
+            <label>Password :</label>
+            <input type="password" required readonly/>
+            <br/>
+            <br/>
+    
+            <label>Phone Number :</label>
+            <input type="tel"/>
+            <br/>
+            <br/>
+    
+            <label>Age :</label>
+            <input type="number"/>
+            <br/>
+            <br/>
+    
+            <label>Gender :</label>
+            <input type="radio"/><label>Male</label>
+            <input type="radio"/><label>Female</label>
+            <br/>
+            <br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+             <legend>Preferences & Extras</legend>
+             
+            <label>Upload Profile Picture :</label>
+            <input type="file"/>
+            <br/>
+            <br/>
+    
+            
+            <label>Color :</label>
+            <input type="color"/>
+            <br/>
+            <br/>
+    
+            
+            <label>Search for Course :</label>
+            <input type="search"/>
+            <br/>
+            <br/>
+    
+            
+            <label>Course Interest Range :</label>
+            <input type="range"/>
+            <br/>
+            <br/>
+    
+            
+            <label>Personal Website :</label>
+            <input type="url"/>
+            <br/>
+            <br/>
+    
+            
+            <label>Course Type :</label>
+            <select>
+               <optgroup label="Engineering">
+                <option>CE</option>
+                <option>EE</option>
+                <option>EC</option>
+               </optgroup>
+               <optgroup label="Management">
+                <option>MBA</option>
+                <option>BBA</option>
+               </optgroup>
+               <optgroup label="Commerce">
+                <option>B.Com</option>
+                <option>M.Com</option>
+               </optgroup>
+            </select>
+            <br/>
+            <br/>
+    
+            <label>Preffered Country :</label>
+            <input list="Countries" >
+            <datalist id="Countries">
+                <option>INDIA</option>
+                <option>USA</option>
+                <option>UK</option>
+            </datalist>
+            <br/>
+            <br/>
+    
+            <label>Agree to Terms :</label>
+            <input type="checkbox"/><label>Agree</label>
+            <br/>
+            <br/>
+        </fieldset>
+        <fieldset>
+            <legend>Date & Time Info</legend>
+            <label>select dob </label>
+            <input type="date">
+            <br/>
+            <br/>
+    
+            <label>select time :</label>
+            <input type="time"/>
+            <br/>
+            <br/>
+    
+            <label>select month :</label>
+            <input type="month"/>
+            <br/>
+            <br/>
+    
+            <label>select week :</label>
+            <input type="week"/>
+            <br/>
+            <br/>
+    
+            <label>select date and time :</label>
+            <input type="datetime-local">
+            <br/>
+            <br/>
+        </fieldset>
+        <fieldset>
+            <legend>Form Controls</legend>
+            <button type="button">Click me</button>
+            <br/>
+            <br/>
+    
+            <input type="image" src="mulogo.png">
+             <br/>
+             <br/>
+             <input type="submit" value="register now">
+             <br/>
+             <br/>
+    
+             <input type="reset">
+             <br/>
+             <br/>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+<body>
+    <form>
+        <h1>Employee Registration Form</h1>
+     <fieldset>
+        <legend>Personal Information</legend>
+        <br/>
+        <label>First Name : </label>
+        <input type="text" required/>
+        <br/>
+        <br/>
+
+        <label>Last Name : </label>
+        <input type="text" required/>
+        <br/>
+        <br/>
+
+        <label>Date of Birth : </label>
+        <input type="date" required/>
+        <br/>
+        <br/>
+
+        <label>Gender : </label>
+        <input type="radio"/><label>Male</label>
+        <input type="radio"/><label>Female</label>
+        <br/>
+        <br/>
+
+        <label>Marital Status : </label>
+        <select>
+            <option>Married</option>
+            <option>Unmarried</option>
+        </select>
+        <br/>
+        <br/>
+        
+        <label>Email ID : </label>
+        <input type="email" />
+        <br/>
+        <br/>
+        
+        <label>Phone Number : </label>
+        <input type="tel" required/>
+        <br/>
+        <br/>
+     </fieldset>
+     <fieldset>
+        <legend>Address Details</legend>
+        <br/>
+        <label>Street Address</label>
+        <input type="text"/>
+        <br/>
+        <br/>
+        
+        <label>City : </label>
+        <input type="text"/>
+        <br/>
+        <br/>
+        
+        <label>State : </label>
+        <input list="States">
+        <datalist id="States" >
+            <option>Gujarat</option>
+            <option>Maharashtra</option>
+            <option>Rajasthan</option>
+        </datalist>
+        <br/>
+        <br/>
+        
+        <label>Pincode : </label>
+        <input type="tel"/>
+        <br/>
+        <br/>
+        
+        <label>Country : </label>
+        <input list="Countries">
+        <datalist id="Countries">
+            <option>India</option>
+            <option>Australia</option>
+            <option>China</option>
+        </datalist>
+        <br/>
+        <br/>
+     </fieldset>
+     <fieldset>
+        <legend>Professional & Job Details</legend>
+        <label>Employee ID : </label>
+        <input type="tel" required/>
+        <br/>
+        <br/>
+
+        <label>Job Title : </label>
+        <input type="text"/>
+        <br/>
+        <br/>
+        
+        <label>Department : </label>
+        <select>
+            <option>Sales</option>
+            <option>Finanace</option>
+            <option>IT</option>
+            <option>HR</option>
+        </select>
+        <br/>
+        <br/>
+        
+        <label>Date of Joining : </label>
+        <input type="date"/>
+        <br/>
+        <br/>
+        
+        <label>Employment Type : </label>
+        <select>
+            <option>Fill-Time</option>
+            <option>Part-Time</option>
+            <option>Contract</option>
+            <option>Intern</option>
+        </select>
+        <br/>
+        <br/>
+        
+        <label>Work Location : </label>
+        <select>
+            <option>Rajkot</option>
+            <option>Ahmedabad</option>
+            <option>Surat</option>
+            <option>Vadodara</option>
+        </select>
+        <br/>
+        <br/>
+     </fieldset>
+     <fieldset>
+        <legend>Financial Information</legend>
+        <label>Pan Number : </label>
+        <input type="tel" required/>
+        <br/>
+        <br/>
+
+        <label>Bank Name : </label>
+        <input type="text"/>
+        <br/>
+        <br/>
+        
+        <label>Bank Account Number : </label>
+        <input type="tel" required/>
+        <br/>
+        <br/>
+        
+        <label>IFSC Code : </label>
+        <input type="text" required/>
+        <br/>
+        <br/>
+        
+        <label>Base Salary : </label>
+        <input type="tel" required/>
+        <br/>
+        <br/>
+
+        <input type="submit" value="Submit">
+        <br/>
+        <br/>
+        <input type="reset" value="Reset">
+        <br/>
+
+     </fieldset>
+    </form>
+</body>
+</html>
